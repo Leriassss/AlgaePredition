@@ -1,0 +1,26 @@
+# --- R ---
+.Renviron
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+*.Ruserdata
+
+# --- Sorties de l'API ---
+*.xlsx
+*.zip
+*.jpeg
+*.jpg
+*.png
+model_*_object.RData
+pre_traitement.xlsx
+analysis_results.xlsx
+
+# --- Dossiers de travail ---
+/tmp/
+/cyan_api/
+/logs/
+
+# --- OS ---
+.DS_Store
+Thumbs.db

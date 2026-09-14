@@ -1,0 +1,15 @@
+# Cle secrete JWT : 64 caracteres hexadecimaux (32 octets)
+# Generer avec : openssl rand -hex 32
+JWT_SECRET=remplacez_par_une_cle_hex_de_64_caracteres
+
+# Repertoire racine de travail de l'API
+CYAN_ROOT_DIR=/chemin/vers/dossier/travail
+
+# Chemin du fichier de fonctions (par defaut : ./ALLFONCTIONS.R)
+CYAN_FUNCTIONS_FILE=/chemin/vers/ALLFONCTIONS.R
+
+# Taille maximale du fichier Excel en Mo
+CYAN_MAX_FILE_MB=10
+
+# Port d'ecoute de l'API
+PORT=8000
